@@ -1,5 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
-ReactDOM.render(<div></div>, document.getElementById("root"));
+import Header from "./common/header/Header";
+ReactDOM.render(
+  <div>
+    <Header />
+  </div>,
+  document.getElementById("root")
+);
