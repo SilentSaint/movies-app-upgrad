@@ -6,6 +6,7 @@ class Header extends Component {
     return (
       <div className="header">
         <img src={logo} className="logo" alt="movies-app-logo" />
+        <div>{this.props.children}</div>
       </div>
     );
   }
